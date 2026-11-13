@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-11-13T04:31:58.872004Z",
+  "finished_at": "2026-11-13T04:32:29.997137Z",
+  "fetched": 2942,
+  "parsed": 2942,
+  "filtered": 2874,
+  "extracted": 68,
+  "stored": 47,
+  "failures": 1,
+  "llm_calls": 0,
+  "llm_cost_usd": 0.0,
+  "estimated_llm_cost_usd": 0.0181353,
+  "llm_provider": "heuristic",
+  "llm_warning": "No OpenAI API key supplied; using the local deterministic extractor.",
+  "source_counts": {
+    "GreenhouseSource": 2054,
+    "LeverSource": 539,
+    "HackerNewsSource": 349
+  },
+  "errors": []
+}

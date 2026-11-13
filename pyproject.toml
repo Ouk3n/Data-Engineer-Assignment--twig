@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-market-pipeline"
+version = "0.1.0"
+description = "Production-minded job posting ingestion and normalization pipeline"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "pydantic>=2.7,<3",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.40"]
+browser = ["playwright>=1.45"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]

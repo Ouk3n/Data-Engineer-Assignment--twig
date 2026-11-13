@@ -1,0 +1,20 @@
+{
+  "labeled_rows": 1,
+  "labeled_fields": 14,
+  "field_accuracy": {
+    "company": 1.0,
+    "title": 1.0,
+    "seniority": 1.0,
+    "city": 1.0,
+    "country": 1.0,
+    "remote_policy": 1.0,
+    "salary_min": 1.0,
+    "salary_max": 1.0,
+    "currency": 1.0,
+    "employment_type": 1.0,
+    "skills": 1.0,
+    "visa_sponsorship": 1.0,
+    "posted_date": 1.0,
+    "status": 1.0
+  }
+}
