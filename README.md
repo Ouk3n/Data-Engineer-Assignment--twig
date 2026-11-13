@@ -5,7 +5,7 @@ This is a small, production-minded Python pipeline for the Data Engineer take-ho
 ## Quick start
 
 ```powershell
-cd C:\Users\amanb\data-engineer-take-home
+cd data-engineer-take-home
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -e ".[dev]"
